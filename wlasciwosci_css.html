@@ -59,11 +59,51 @@ body{
 	background-repeat:no-repeat;
 	background-position:1500px 0px;
 	}
+
+ol.punkty {	
+	list-style-type:circle;
+	list-style-position:outside;
+	color:purple;
+	font-style:Arial;
+}	
 	
+	
+ol.numer {	
+list-style-type:upper-alpha;	
+list-style-position:inside;	
+color:blue;
+font-type:Calibri;	
+}	
+	
+ol.znacznik {	
+list-style-position:inside;	
+list-style-image:url(foty/gdzietamuza2.gif);		
+}	
+	
+li.swieta {	
+list-style-position:inside;	
+list-style-image:url(foty/gdzietamuza.gif);	
+}
+	
+table.tabela {
+cursor:crosshair;
+}	
+
+div#rozmiar {
+height:8%;
+width:45%;
+color:navy;
+border: 2px solid orange;
+padding: 10px 15px 20px 25px;
+}
+
+body#margines {
+padding:0px 10px 5px;
+}
 	
 </style>
 </head>
-<body>
+<body id="margines">
 <div style="background-color:grey">
 <h1><center>Projektowanie Stron Internetowych - Bartosz Hanusik</center></h1>
 </div>
@@ -132,7 +172,47 @@ zmiana wielkości liter w tekście: duże litery;<br /> </h3>
 <h3> Zadanie III - Tło</h3>
 tło obrazkowe url(foty/tlo.jpg), nieruchome, z powtarzaniem w poziomie, z przesunieciem o 10% w dół strony
 
+<h3>Zadanie VI - LISTY</H3>
+<ol class="Punkty">Pięć Zalet Przemdiotu TSI:<br />
+	<li>fajne oceny</li>
+	<li>można pogadać</li>
+	<li>znajomość html</li>
+	<li>znajomość css</li>
+	<li>i cos jeszcze</li>
+</ol>
 
+<ol class="numer">Trzy Wady Przedmiotu tsi:<br />
+	<li>Dużo materiału</li>
+	<li>Dużo pisania</li>
+	<li>Jak cie na lekcji nie ma to lipa</li>
+</ol>	
+
+<ol class="znacznik">CO MUSZE KUPIC PRZED SWIETAMI:<br />
+	<li class="swieta">prezenty</li>
+	<li class="swieta">Karpia </li>
+	<li>opłatki</li>
+	<li>jedzenie</li>
+</ol>	
+	
+<h3>ZADANIE VII - KURSOR</h3>	
+	
+<table class="tabela" border="2" width="60%">
+	<tr>
+		<td>1</td>
+		<td>2</td>
+	</tr>
+</table>
+
+<h3>ZADANIE VIII - ROZMIAR:</h3>
+<div id="rozmiar">
+Ustawienie wysokości (8%) i szerokości (45%) dla elementu div#rozmiar
+Kolor i rodzaj obramowania dobierz samodzielnie
+div#rozmiar { height: 8%; width: 45%; border: ...........; }
+</div>
+
+<h3>ZADANIE IX - MARGINESY</h3>
+Ustawienie marginesów dla strony: górny 0 px, prawy i lewy 10 px, dolny 5px,
+Dodanie odstępu do elementu - ZADANIA VIII - (padding): górny 10 px, prawy 15px, lewy 20 px, dolny 25px,
 
 </div>
 <div style="background-color:grey;clear:both;"><center> &copy; B.H., November 2024</center>
