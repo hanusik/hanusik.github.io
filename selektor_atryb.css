@@ -1,0 +1,18 @@
+
+
+p.zadanie0[align] {color:red; font-size:20pt;}
+ 
+ 
+p.zadanie1[align="center"] {color:green; font-size:20pt;}
+p.zadanie1[align="right"] {color:aqua; font-size: 20pt; }
+
+
+div.zadanie2[title="opis"] {color:red}
+
+h3.zadanie2[title="opis"] {text-decoration:underline;
+							border-style:dotted;
+							background-color:#FF00FF;
+							font-size:30pt;
+							color:red;
+							}
+

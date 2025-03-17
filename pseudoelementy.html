@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl-PL>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title> BHanusik </title>
+
+<style type="text/css">
+p:first-line {
+background-color:yellow;
+color:red;
+padding:10px;
+text-decoration:underline;
+}
+
+h2:first-letter {
+font-size:500%;
+color:fuchsia;
+float:left;
+background-color:green;
+border:2px solid blue;
+}
+
+#element:before{
+border:1px solid blue;
+background-color:aqua;
+color:fuchsia;
+font-size:120%;
+content:'Przed';
+}
+
+#element:after{
+border:1px solid blue;
+background-color:purple;
+color:white;
+font-size:120%;
+content:'Po';
+}
+
+#element{
+border:1px solid red;
+background-color:pink;
+font-size:120%
+}
+ 
+::selection{
+color:red;
+background-color:pink;
+}
+
+::marker{
+color:blue;
+font-size:25px;
+}
+
+
+</style>
+</head>
+<body>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<br />
+<br />
+
+<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h2>
+<br />
+<br />
+
+<h3 id="element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+<h3 id="element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br />
+<h3 id="element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br />
+
+<ul type="square">
+	<li>zeszyt</li>
+	<li>długopis</li>
+	<li>książka</li>
+</ul>
+<br />
+<br />
+<ol type="A">
+	<li>numer 1</li>
+	<li>numer 2</li>
+	<li>numer 3</li>
+</ol>
+
+
+
+
+
+
+
+
+</body>
+</html>
